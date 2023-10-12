@@ -1,3 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "ADLaM_Display";
+  background-image: url(../assets/imagenes/fondo.png);
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 70% 10%;
+  grid-template-areas: "header" "div" "footer";
+}
+
+.sectionprod, .procesos {
+  width: 20vh;
+}
+
+header {
+  grid-area: header;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 1fr;
+}
+
+header img {
+  width: 150px;
+  border-radius: 20%;
+  margin-top: 20px;
+}
+
+header div {
+  width: 20vw;
+  height: 20vh;
+}
+
+footer {
+  grid-area: footer;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+footer img {
+  width: 10vw;
+}
+
+section {
+  grid-area: nav;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.sectionprod img {
+  width: 150px;
+}
+
+.procesos img {
+  width: 150px;
+}
 
 /*# sourceMappingURL=style.css.map */

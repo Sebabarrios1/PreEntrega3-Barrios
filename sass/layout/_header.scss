@@ -1,0 +1,18 @@
+header{
+    grid-area: header;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 1fr;
+}
+
+header img{
+    width: 150px;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+
+header div{
+    width: 20vw;
+    height: 20vh;
+}
