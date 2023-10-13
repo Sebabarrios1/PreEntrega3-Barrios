@@ -1,15 +1,33 @@
 footer{
     grid-area: footer;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
     grid-template-rows: 50% 50%;
-    justify-content: center;
     justify-items: center;
-    align-items: center;
-    margin-top: 5%;
+    align-content: center;
+    margin:10px 10px;
+    border-radius: 30px;
+    background-color: #003cff ;
     
 }
 
-footer img{
-    width: 10vw;
+footer div{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 3px;
+
 }
+
+footer img{
+    width: 60px;
+}
+
+footer h3{
+    font-size: x-small;
+}
+
+footer h5{
+    font-size: x-small;
+}
+

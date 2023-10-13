@@ -1,0 +1,85 @@
+@media(width>= 500px){
+    .sectionprod img{
+        width: 250;
+        border-radius: 10%;
+    }
+
+    .nosotros img{
+        width:325px;
+    }
+    
+    .procesos img{
+      width: 350px;
+      border-radius: 30px;
+    }
+}
+
+@media(width>= 800px){
+    body{
+        grid-template-rows: 10% auto 5%;
+    }
+   
+    header{
+        grid-area: header;
+        display: grid;
+        justify-content: center;
+        width: 1fr;
+        height: 85%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+        grid-template-areas: "logo nav";
+        margin: 0% 10px;
+        background-color: #003cff;
+        border-radius: 30px;
+        row-gap: 25px;
+        
+    
+    }
+
+    header .cont_logo{
+        height: 75%;
+
+    }
+
+    .nav_inicio{
+        margin-top: 300px;
+        height: 1vh;
+    }
+
+    .cont_logo h1{
+        font-size: larger;
+    }
+
+    .cont_logo h2{
+        font-size: large;
+    }
+ 
+    .nav_inicio h2{
+        font-size: large;
+    }
+
+    .sectionprod img{
+        width: 350px;
+        border-radius: 10%;
+      
+    }
+
+    .sectionprod div{
+        padding: 20px 10px;
+    }
+
+    .nosotros img{
+        width: 525px;;
+    }
+    
+    .procesos img{
+      width: 550px;
+      border-radius: 30px;
+    }
+
+    footer{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100%;
+    }
+}
+
