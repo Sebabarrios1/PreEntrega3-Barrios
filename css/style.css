@@ -22,7 +22,6 @@ body {
   grid-template-columns: 100%;
   grid-template-rows: auto auto auto;
   justify-content: center;
-  margin: auto;
   grid-template-areas: "header" "div" "footer";
 }
 
@@ -67,6 +66,10 @@ header .cont_logo {
   grid-template-rows: auto;
   justify-items: center;
   margin-bottom: 10px;
+}
+
+.nav_inicio div:hover {
+  translate: 4px 4px;
 }
 
 .nav_inicio div {
@@ -199,6 +202,10 @@ section {
   align-items: center;
 }
 
+.card:hover {
+  translate: 4px 4px;
+}
+
 .card {
   margin: auto;
   font-size: small;
@@ -219,6 +226,10 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.botones {
+  width: auto;
 }
 
 /* html bowls*/

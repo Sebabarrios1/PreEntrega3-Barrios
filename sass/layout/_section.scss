@@ -99,7 +99,9 @@ section{
     
 }
 
-
+.card:hover{
+    translate: 4px 4px;
+    }
 .card {
     margin:auto;
     font-size:small;
@@ -124,7 +126,9 @@ section{
     align-items: center;
 
 }
-
+.botones{
+    width: auto;
+}
 /* html bowls*/
 
 .sect_bowl{
