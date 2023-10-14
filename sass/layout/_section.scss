@@ -1,5 +1,5 @@
 section{
-    grid-area: nav;
+    grid-area: div;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
@@ -10,29 +10,24 @@ section{
 
 }
 
+#carouselExample{
+
+    width: 300px;
+   
+}
+
 .sectionprod img{
     width: 150px;
     border-radius: 10%;
 }
-.sectionprod div{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto;
-    justify-items: center;
+
+
+.sectionprod{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    background-color: #003cff;
-    border-radius: 10%;
-    margin: 5%;
-    padding: 5px 10px;
-    text-align: center;
-    
 }
 
-.sectionprod h2{
-    border-radius: 10px;
-    background-color: #1300c08e;
-    padding: 3px 5px;
-}
 
 .nosotros{
     display: grid;
@@ -93,3 +88,105 @@ section{
   margin-bottom: 10px;
   
 }
+
+/* html productos*/
+
+.html_prod{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.card {
+    margin:auto;
+    font-size:small;
+    margin-bottom: 15px;
+}
+
+.titulos_prod{
+    width: auto;
+    border-radius: 10px;
+    background-color: hwb(246 0% 0%);
+    padding: 3px 5px;
+    font-size: larger;
+}
+
+/* html envios*/
+
+
+.contenedor_envio{
+    grid-area: div;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+/* html bowls*/
+
+.sect_bowl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #003cff;
+    padding: 10px;
+    
+}
+
+.sect_bowl div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect_bowl h2{
+    width: auto;
+    border-radius: 10px;
+    background-color: hwb(246 0% 0%);
+    padding: 3px 5px;
+    font-size: larger;
+}
+
+.sect_bowl img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+/*html platos*/
+
+.sect_plato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #003cff;
+    padding: 10px;
+    
+}
+
+.sect_plato div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect_plato h2{
+    width: auto;
+    border-radius: 10px;
+    background-color: hwb(246 0% 0%);
+    padding: 3px 5px;
+    font-size: larger;
+}
+
+.sect_plato img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+

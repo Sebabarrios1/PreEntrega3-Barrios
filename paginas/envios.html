@@ -3,26 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="./assets/imagenes/ceramicaLogo.png" type="image/x-icon">
+        <link rel="shortcut icon" href="../assets/imagenes/ceramicaLogo.png" type="image/x-icon">
         <title>Pompo Ceramica</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
-      <header>
+      <header id="header_envios">
       <div class="cont_logo">
-        <img class="LogoTaza" src="./assets/imagenes/PC.png" alt="LogoTaza">
+        <img class="LogoTaza" src="../assets/imagenes/PC.png" alt="LogoTaza">
         <h1>Pompo Ceramica</h1>
         <h2>Con el cariño de nuestras manos</h2>
       </div>
-      <nav>
+      <nav class="nav_inicio">
         <div><a href="../index.html"><h2>Inicio</h2></a></div>
-        <div><a href="./paginas/envios.html"><h2>Envidos</h2></a></div>
-        <div><a href="../index.html #nosotros"><h2>Nosotros</h2></a></div>
-        <div><a href="../index.html #contactos"><h2>Contactos</h2></a></div>
+        <div><a href="../paginas/productos.html"><h2>Productos</h2></a></div>
+        <div><a href="../index.html "><h2>Nosotros</h2></a></div>
+        <div><a href="../index.html "><h2>Contactos</h2></a></div>
       </nav>
       </header>
-      <nav class="navFoot">
-        <form action="#" method="get">
+      <nav >
+        <form class="contenedor_envio" action="#" method="get">
+              <div class="envios"> 
                 <label for="Nombre"></label>
                 <input class="tag" placeholder="Nombre" type="text">
 
@@ -49,7 +50,8 @@
                     <option>Cordoba</option>
                     <option>Buenos Aires</option>
                 </select>
-
+              </div>
+              <div class="envios">
                 <label for="comentarios"></label>
                 <textarea class="tag" placeholder="comentarios" name="comentarios" id="" cols="30" rows="10"></textarea>
             
@@ -58,13 +60,13 @@
                 
                 <label for="enviar"></label>
                 <input class="botones" type="submit" value="Enviar">
-
+              </div>
             </form>
 
         </nav>
     
       <footer>
-        <div id="Contactos"><img src="./assets/imagenes/tel.png" alt="telefono"><h3>Tek:3425550000</h3>
+        <div id="Contactos"><img src="../assets/imagenes/tel.png" alt="telefono"><h3>Tek:3425550000</h3>
         <H3>Correo: pompoceramica@gmail.com</H3></div>
         <div class="certificado">
             <img src="../assets/imagenes/formulario960.png" alt="formularios960">

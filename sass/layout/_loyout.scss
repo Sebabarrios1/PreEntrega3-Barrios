@@ -24,7 +24,9 @@ body{
     background-size:contain;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 15% auto 10%;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    margin: auto;
     grid-template-areas:
     "header"
     "div"

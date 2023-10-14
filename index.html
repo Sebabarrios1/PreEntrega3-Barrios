@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/imagenes/ceramicaLogo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Pompo Ceramica</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -22,45 +23,33 @@
   </nav>
   </header>
   <div>
+ 
     <section class="sectionprod">
-      <div>
-        <img src="./assets/imagenes/bowlprod1.jpg" alt="bowl1">
-        <h2>Bowls azul marino</h2>
-        <h2>$2500</h2>
-      </div>
-
-      <div>
-        <img src="./assets/imagenes/platoprod2.jpg" alt="plato2">
-        <h2>Platos mancha</h2>
-        <h2>$3000</h2>
-      </div>
-
-      <div>
-        <img src="./assets/imagenes/sahumerioprod2.jpg" alt="sahumerio2">
-        <h2>Porta sahumerio mancha</h2>
-        <h2>$1500</h2>
-      </div>
-
-      <div>
-        <img src="./assets/imagenes/bowlprod3.jpg" alt="bowl3">
-        <h2>Bowls rusticos</h2>
-        <h2>$2500</h2>
-      </div>
-      
-      <div>
-        <img src="./assets/imagenes/tazaprod3.jpg" alt="taza3">
-        <h2>Taza pastel</h2>
-        <h2>$2500</h2>
-      </div>
-
-      <div>
-        <img src="./assets/imagenes/tazaprod2.jpg" alt="taza2">
-        <h2>Taza pintitas</h2>
-        <h2>$2500</h2>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/imagenes/platoprod3.jpg" class="d-block w-100" alt="platos3">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/imagenes/tazaprod2.jpg" class="d-block w-100" alt="taza2">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/imagenes/platoprod2.jpg" class="d-block w-100" alt="plato2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
+    
 
-    <section class="nosotros">
+    <section id="nosotros" class="nosotros">
       <h2>Nosotros</h2>
       <br>
       <img src="./assets/imagenes/produ_ceramica.jpg" alt="alfareria ceramica">
@@ -88,7 +77,7 @@
 
 </div>
   <footer>
-    <div id="Contactos"><img src="./assets/imagenes/tel.png" alt="telefono"><h3>Tel:3425550000</h3><br>
+    <div id="contactos"><img src="./assets/imagenes/tel.png" alt="telefono"><h3>Tel:3425550000</h3><br>
     <h3>Correo: pompoceramica@gmail.com</h3></div>
     <div class="certificado">
       <img src="./assets/imagenes/formulario960.png" alt="formularios960">
@@ -97,5 +86,7 @@
     
 
   </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
